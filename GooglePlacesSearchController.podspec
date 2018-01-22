@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "GooglePlacesSearchController"
-  s.version          = "0.1.7"
+  s.version          = "0.1.8"
   s.summary      = "Autocompleting address search controller, uses Google Maps Autocomplete API. Written in Swift."
   s.homepage         = "https://github.com/shmidt/GooglePlacesSearchController"
   s.screenshots = "https://raw.githubusercontent.com/shmidt/GooglePlacesSearchController/master/Screenshots/view.png", "https://raw.githubusercontent.com/shmidt/GooglePlacesSearchController/master/Screenshots/search.png"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.source           = { :git => "https://github.com/shmidt/GooglePlacesSearchController.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '10.3'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
